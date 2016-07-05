@@ -1,0 +1,12 @@
+// COMP : #IN DELAY(ns)
+// ---- - --- ---------
+REG     : 1   0.1
+ADD32   : 2   4.5
+SUB32   : 2   4.8
+MUL32   : 2   8.1
+COMPGT  : 2   4.0
+COMPLT  : 2   4.0
+COMPEQ  : 2   3.2
+MUX2x1  : 3   1.1
+SHL     : 2   1.3
+SHR     : 2   1.3

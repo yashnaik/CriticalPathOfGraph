@@ -1,0 +1,18 @@
+INPUTS  : a b c
+OUTPUTS : z x
+WIRES   : d e f g h dLTe dEQe xrin zrin
+REGS    : greg hreg
+
+d = a + b
+e = a + c
+f = a - b  
+dEQe = d == e
+dLTe = d < e
+g = dLTe ? d : e 
+h = dEQe ? g : f 
+greg = g
+hreg = h
+xrin = hreg << dLTe
+zrin = hreg >> dEQe
+x = xrin
+z = zrin

@@ -1,0 +1,12 @@
+INPUTS  : a b c
+OUTPUTS : z x
+WIRES   : d e f g zr xr
+
+d = a + b
+e = a + c
+g = d > e
+zr = g?d:e
+f = a * c
+xr = f - d  
+x = xr
+z = zr

@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -O2  -fPIC "CMakeFiles/critpath.dir/main_(1).cpp.o"  -o critpath -rdynamic 
